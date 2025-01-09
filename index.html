@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Websites in One Page</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+    iframe {
+      border: none;
+      flex: 1; /* Each iframe takes up half the space */
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://mmr.manheim.com/ui-mmr/?country=US&popup=true&source=man" title="Website 1"></iframe>
+  <iframe src="https://www.carfax.com/value/" title="Website 2"></iframe>
+</body>
+</html>
